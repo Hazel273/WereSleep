@@ -1,9 +1,13 @@
 ## WereSleep code breakdown 
+
 The website will be found at:
+
 http://86.21.74.57:56000
+
 Unless my ISP changes my IP, in which case contact me
 
 #1Data Collection
+
 Light Sensor.cpp - The code for the ESP-32
 MoonStages-API.py - The script that gets data from Farmsense, trigger this with a Cron Job once every 12h
 post-room-data.php - The code that posts the light data to the SQL database
